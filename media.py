@@ -1,6 +1,5 @@
 # main.py
 
-# Função principal para calcular a média das notas
 def calcular_media():
     # Recebe as 3 notas do aluno
     nota1 = float(input("Digite a primeira nota: "))
@@ -12,7 +11,12 @@ def calcular_media():
     
     # Exibe a média
     print(f"A média do aluno é: {media:.2f}")
+    
+    # Verificação de aprovação
+    if media >= 6.0:
+        print("Aprovado")
+    else:
+        print("Reprovado")
 
-# Chama a função para calcular e exibir a média
 if __name__ == "__main__":
     calcular_media()
