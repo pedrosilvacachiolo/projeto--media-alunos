@@ -15,6 +15,8 @@ def calcular_media():
     # Verificação de aprovação
     if media >= 6.0:
         print("Aprovado")
+    elif media >= 5.0:
+        print("Recuperação")
     else:
         print("Reprovado")
 
