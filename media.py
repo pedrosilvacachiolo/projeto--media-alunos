@@ -6,9 +6,6 @@ def calcular_media():
     nota2 = float(input("Digite a segunda nota: "))
     nota3 = float(input("Digite a terceira nota: "))
     
-    # Calcula a média aritmética
-    media = (nota1 + nota2 + nota3) / 3
-    
     def caucular_media_ponderada(nota1, nota2, nota3)
     #cauculando a media ponderada
     peso1, peso2, peso3 = 1, 1, 2
